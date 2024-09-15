@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+/* body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+} */
+a {
+  font-family: "Poppins", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+blockquote {
+  border-left-width: 10px;
+  border-style: "solid";
+  border-left-color: "#dfe2e5";
+  padding: 12px;
+  padding-bottom: 0;
+  margin-top: 3px;
+  margin-left: 10px;
+}
+ul > li {
+  list-style: disc;
+  text-align: start;
+}
+ol > li {
+  list-style: decimal;
+  text-align: start;
+}
+.blog a {
+  /* Your styles for all <a> tags inside .blog div go here */
+  color: rgb(83, 83, 192); /* For example, set the text color to blue */
+  text-decoration: none; /* Remove the default underline on links */
+  font-weight: bold; /* Make the text bold */
+}
+.blog a:hover {
+  /* Your styles for all <a> tags inside .blog div go here */
+  color: rgb(43, 43, 228); /* For example, set the text color to blue */
+  text-decoration: underline; /* Remove the default underline on links */
+  font-weight: bold; /* Make the text bold */
+}
+.blog p {
+  text-align: start;
+  /* line-height: 10px; */
+}
+.blog h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: start;
+  /* font-size: large; */
+  line-height: normal;
+}
+.blog h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.blog h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.blog h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.blog h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.blog h5,
+h6 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.box-shadow {
+  cursor: pointer;
+}
+
+.box-shadow:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  transition: all ease 0.8s;
+}
+.available {
+  background: #00f260;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #0575e6, #00f260);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #0575e6, #00f260);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.not-available {
+  background: #12c2e9;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f64f59, #c471ed, #12c2e9);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.card1-bg {
+  background: radial-gradient(at top left, #ff8f4f 0%, #bd45a4 100%);
+  box-shadow: 10px 20px 30px 0 rgba(0, 0, 0, 0.23);
+}
+.card2-bg {
+  background: radial-gradient(at top left, #d74aa7 0%, #3e41dd 100%);
+  box-shadow: 10px 20px 30px 0 rgba(0, 0, 0, 0.23);
+}
+.card3-bg {
+  background: radial-gradient(at top left, #582cc7 0%, #02a7cc 100%);
+  box-shadow: 10px 20px 30px 0 rgba(0, 0, 0, 0.23);
+}
+.card4-bg {
+  background: radial-gradient(at top left, #3079cc 0%, #02cc8f 100%);
+  box-shadow: 10px 20px 30px 0 rgba(0, 0, 0, 0.23);
+}

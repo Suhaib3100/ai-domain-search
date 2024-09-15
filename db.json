@@ -1,0 +1,1 @@
+{"db":"mongodb://127.0.0.1:27017","database":"selfHosted","selfHostedURI":"mongodb://127.0.0.1:27017","atlasURI":"mongodb+srv://vapinwords:Wf94AHxStssusQwrGL@domainhub.5gc8rb3.mongodb.net/?retryWrites=true&w=majority&appName=DomainHub","siteUrl":"http://localhost:3000","dbName":"domain-hub"}
